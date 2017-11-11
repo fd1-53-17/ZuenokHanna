@@ -1,0 +1,19 @@
+.three {
+background-image: url(./cards2.png);
+width: 140px;
+height:190px;
+background-position:-290px -195px; 
+}
+.seven {
+background-image: url(./cards2.png);
+width: 140px;
+height:190px;
+background-position:-145px -970px;
+}
+.ace {
+background-image: url(./cards2.png);
+width: 140px;
+height:190px; 
+background-position:-290px -195px;
+background-position:-435px -2327px;
+}
