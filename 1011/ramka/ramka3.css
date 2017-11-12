@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+table {
+    width: 90vw;
+    height: 50vh;
+    border-collapse: collapse;
+}
+.engle1 {
+    width: 95px;
+    height: 95px;
+    background: url("./engle1.png") no-repeat;
+}
+.engle2 {
+    width: 95px;
+    height: 95px;
+    background: url("./engle2.png") no-repeat;
+    background-position: right top;
+}
+.engle3 {
+    width: 95px;
+    height: 95px;
+    background: url("./engle3.png") no-repeat;
+    background-position: right bottom;
+}
+.engle4 {
+    width: 95px;
+    height: 95px;
+    background: url("./engle4.png") no-repeat;
+    background-position: left bottom;
+}
+.border1 {
+    background: url("./border1.png")  repeat-x;
+}
+.border2 {
+    background: url("./border2.png") 100% 0% repeat-y;
+}
+.border3 {
+    background: url("./border1.png") 100% 100% repeat-x;
+}
+.border4 {
+    background: url("./border2.png") 0 100% repeat-y;
+}
+.text {font-size: 15px;
+    line-height: 1.8em;
+    font-family: cursive;
+    text-align: center;
+}
