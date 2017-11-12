@@ -1,0 +1,24 @@
+html {
+    height: 100vh;
+    background:  repeating-linear-gradient(to top, gray 0, gray 0.5vw, transparent 1vw, transparent 5vw),
+               repeating-linear-gradient(to right, gray 0, gray 0.5vw, transparent 1vw, transparent 5vw);
+}
+.blue-pencil {
+    background: linear-gradient(#39747b, #81eaf7, #39747b);
+  border: 1px solid #81eaf7;
+  border-radius: 5px;
+  height: 30px;
+  width: 40vw;
+  margin: 20% 50%;
+}
+.red-pencil {
+   background: linear-gradient(to right,
+   #8b072c 0%, #8b072c 33%,
+   #d32959 33%, #d32959 67%,
+   #a00430 67%, #a00430 100%);
+  border: 1px solid #8b072c;
+  border-radius: 5px;
+  width: 30px;
+  height: 40vh;
+  margin: 10%;
+}
