@@ -1,0 +1,14 @@
+.row>div {
+    width: 10px;
+    display: inline-block;
+}
+.row {
+    clear: both;
+    width: 30px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
