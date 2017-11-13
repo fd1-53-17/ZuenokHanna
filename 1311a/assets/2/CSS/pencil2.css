@@ -1,0 +1,32 @@
+div {
+    width: 50vw;
+    height: 30px;
+}
+.last {
+    width: 50px;
+    height: 30px;
+    background: linear-gradient(to bottom, #555051, #837b7d, #555051);
+    float: left;
+}
+.wood {
+    height: 30px;
+    background: linear-gradient(to bottom, #8f032a 0%, #700221 33%, #e30443 33%, #e30443 67%, #700221 67%, #8f032a 100%);
+    margin-left: 50px;
+    float: left;
+    margin-top: -30px;
+}
+.st {
+    height: 0px;
+    width: 0px;
+    border: solid 15px transparent;
+    border-left: 50px solid #c6bdac;
+    margin-left: calc(50vw + 50px);
+}
+.grif {
+    height: 0px;
+    width: 0px;
+    border: solid 4px transparent;
+    border-left: 10px solid #1e1d1d;
+    margin-left: calc(50vw + 88px);
+    margin-top: -19px;
+}
