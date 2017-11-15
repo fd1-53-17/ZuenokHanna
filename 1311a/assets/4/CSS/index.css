@@ -1,0 +1,37 @@
+.number>li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.number {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+.menu {
+    width: 80vw;
+    border:solid 1px gray;
+    text-align: right;
+}
+.page {
+    width: 80px;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    color: gray;
+}
+.n1 {
+    background-color: #a44823;
+    border: 1px solid #663106;
+    color: white;
+}
+.n2 {
+   background-color: #ebe8df;
+    border: 1px solid #c0bdb3;
+    color: #aa8845; 
+}
+.number>li>div {
+   margin-top: 20%;
+}
