@@ -1,0 +1,148 @@
+.table {
+    width: 80vmin;
+    height: 80vmin;
+    padding: 0;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vmin;
+    position: absolute;
+}
+.row {
+    width: 80vmin;
+    height:calc(80vmin / 10);
+    outline: 0,5px solid rgba(68,57,55,0.7);
+    position: absolute;
+    padding: 0;
+}
+.sq {
+    height: calc(80vmin / 10);
+    width: calc(80vmin / 10);
+    outline: 0.01vmin solid rgba(68,57,55,0.7);
+    position: relative;
+}
+.s1 {
+    left:calc(80vmin / 10);
+}
+.s2 {
+    left:calc(2 * 80vmin / 10);
+}
+.s3 {
+    left: calc(3 * 80vmin / 10);
+}
+.s4 {
+    left: calc(4 * 80vmin / 10);
+}
+.s5 {
+    left: calc(5 * 80vmin / 10);
+}
+.s6 {
+    left: calc(6 * 80vmin / 10);
+}
+.s7 {
+    left: calc(7 * 80vmin / 10);
+}
+.s8 {
+    left: calc(8 *80vmin / 10);
+}
+.s9 {
+    left: calc(9 *80vmin / 10);
+}
+.dark {
+    background-color: rgba(99,84,82,0.7);
+}
+.tour {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    background-size: calc(300vmin / 6);
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 40% 104%;
+}
+.tour2 {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-size: calc(300vmin / 6);
+    background-position: 40% 0%;
+}
+.horse {
+  background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 83% 104%;
+    background-size: calc(300vmin / 6);
+}
+.horse2 {
+  background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 83% 0%;
+    background-size: calc(300vmin / 6);
+}
+.of {
+   background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 61% 104%;
+     background-size: calc(300vmin / 6);
+}
+.of2 {
+   background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 61% -2%; 
+     background-size: calc(300vmin / 6);
+}
+.queen {
+  background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 19% 104%;
+     background-size: calc(300vmin / 6);
+}
+.queen2 {
+  background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 19% 0%;
+     background-size: calc(300vmin / 6);
+}
+.king {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: -2% 104%; 
+     background-size: calc(300vmin / 6);
+}
+.king2 {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: -2% 0%;
+     background-size: calc(300vmin / 6);
+}
+.pesh {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 104% 104%;
+     background-size: calc(300vmin / 6);
+}
+.pesh2 {background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: calc(80vmin / 10);
+    height: calc(80vmin / 10);
+    background-position: 104% 0%;
+    background-size: calc(300vmin / 6);
+}
