@@ -1,0 +1,34 @@
+.three,
+.seven,
+.ace {
+    position: absolute;
+}
+
+.three {
+    top: 0;
+    z-index: 20;
+    background-image: url(cards2.png);
+    width: 140px;
+    height: 190px;
+    background-position: -290px -195px;
+}
+
+.seven {
+    z-index: 10;
+    top: 80px;
+    left: 100px;
+    background-image: url(cards2.png);
+    width: 140px;
+    height: 190px;
+    background-position: -145px -970px;
+}
+
+.ace {
+    top: 170px;
+    left: 200px;
+    background-image: url(cards2.png);
+    width: 140px;
+    height: 190px;
+    background-position: -290px -195px;
+    background-position: -435px -2327px;
+}
