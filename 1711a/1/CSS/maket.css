@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 818px;
+    height: 980px;
+    margin: auto;
+    position: relative;
+}
+
+header,
+main,
+footer {
+    position: relative;
+    width: 818px;
+}
+
+header {
+    padding-top: 94px;
+    top: 0;
+}
+
+header>div {
+    background-color: #777777;
+    position: absolute;
+    height: 94px
+}
+
+.one {
+    width: 104px;
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    width: 237px;
+    left: 124px;
+    top: 0px;
+}
+
+.three {
+    left: 380px;
+    top: 0px;
+    width: 437px;
+}
+
+main {
+    width: 900px;
+    padding-top: 658px;
+}
+
+aside {
+    width: 155px;
+    height: 658px;
+    position: absolute;
+    top: 0px;
+}
+
+aside>div {
+    width: 155px;
+    background-color: #777777;
+}
+
+.sbar1 {
+    position: static;
+    height: 284px;
+}
+
+.sbar2 {
+    position: absolute;
+    bottom: 0px;
+    height: 112px;
+}
+
+article {
+    width: 670px;
+    height: 658px;
+    position: absolute;
+    left: 173px;
+    top: 0;
+}
+
+.block5 {
+    width: 645px;
+    height: 178px;
+    background-color: #DCDCDC;
+    position: static;
+}
+
+ul {
+    position: absolute;
+    padding: 0;
+}
+
+ul>li {
+    list-style-type: none;
+    width: 112px;
+    height: 128px;
+    background-color: #DCDCDC;
+    display: inline-block;
+    margin: 0 17px 17px 0;
+}
+
+.block8 {
+    position: absolute;
+    bottom: 0;
+    height: 170px;
+    width: 314px;
+    background: #DCDCDC;
+
+}
+
+.block9 {
+    position: absolute;
+    left: 330px;
+    bottom: 0;
+    height: 170px;
+    width: 314px;
+    background: #DCDCDC;
+}
+
+footer {
+    height: 152px;
+    position: relative;
+}
+
+.block10 {
+    width: 254px;
+    height: 152px;
+    background: #777777;
+    position: absolute;
+}
+
+.block11 {
+    width: 254px;
+    height: 152px;
+    background: #777777;
+    position: absolute;
+    left: 277px;
+}
+
+.block12 {
+    width: 261px;
+    height: 66px;
+    background: #777777;
+    position: absolute;
+    left: 555px;
+}
+
+.block13 {
+    width: 261px;
+    height: 66px;
+    background: #777777;
+    position: absolute;
+    left: 555px;
+    top: 85px;
+}
+
+hr {
+    width: 818px;
+    margin: 16px 0px 18px 0px;
+}
