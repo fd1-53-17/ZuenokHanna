@@ -1,0 +1,103 @@
+body {
+    width: 30px;
+    height: 90px;
+    position: absolute;
+}
+
+.r1,
+.r2,
+.r3 {
+    position: absolute;
+}
+
+.row>div {
+    top: 0;
+}
+
+.row>.r1 {
+    left: 0;
+}
+
+.row>.r2 {
+    left: 10px;
+}
+
+.row>.r3 {
+    left: 20px;
+}
+
+.row2>div {
+    top: 15px;
+}
+
+.row2>.r1 {
+    left: 0;
+}
+
+.row2>.r2 {
+    left: 20px;
+}
+
+.row2>.r3 {
+    left: 10px;
+}
+
+.row3>div {
+    top: 30px;
+}
+
+.row3>.r1 {
+    left: 10px;
+}
+
+.row3>.r2 {
+    left: 0;
+}
+
+.row3>.r3 {
+    left: 20px;
+}
+
+.row4>div {
+    top: 45px;
+}
+
+.row4>.r1 {
+    left: 20px;
+}
+
+.row4>.r2 {
+    left: 0;
+}
+
+.row4>.r3 {
+    left: 10px;
+}
+
+.row5>div {
+    top: 60px;
+}
+
+.row5>.r1 {
+    left: 10px;
+}
+
+.row5>.r2 {
+    left: 20px;
+}
+
+.row5>.r3 {
+    left: 0;
+}
+
+.row6>div {
+    top: 75px;
+}
+
+.row6>.r1 {
+    left: 20px;
+}
+
+.row6>.r2 {
+    left: 10px;
+}
