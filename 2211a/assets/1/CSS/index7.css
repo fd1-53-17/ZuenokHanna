@@ -1,0 +1,47 @@
+body>div {
+    width: 540px;
+    height: 108px;
+    outline: 1 px solid black;
+    position: absolute;
+    padding-left: 10px;
+}
+
+p {
+    font-family: arial black;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+div>div {
+    width: 116px;
+    height: 91px;
+    border: dashed 1px red;
+    border-radius: 10px;
+    position: absolute;
+    right: 14px;
+    top: 6px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: 10px
+}
+
+div>p:nth-of-type(2) {
+    font-size: 20px;
+    color: red;
+}
+
+span {
+    font-size: 40px;
+    font-family: arial black;
+    font-weight: bolder;
+    color: red;
+    display: block;
+    margin-top: -8px;
+
+}

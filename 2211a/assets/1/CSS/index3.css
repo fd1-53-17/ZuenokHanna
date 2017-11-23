@@ -1,0 +1,83 @@
+body {
+    width: 570px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: gray;
+    word-spacing: 0.1em;
+    line-height: 1.4em;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    color: black;
+    font-family: monospace;
+    letter-spacing: 0;
+}
+
+p:nth-of-type(2),
+p:nth-of-type(3),
+p:nth-of-type(5) {
+    display: inline-block;
+    width: 570px;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 5px;
+}
+
+span:nth-of-type(1),
+span:nth-of-type(16) {
+    display: inline;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.two>span:nth-of-type(1),
+.two>span:nth-of-type(8) {
+    color: #22245e;
+}
+
+.three>span:nth-of-type(1),
+.five>span:nth-of-type(1),
+.five>span:nth-of-type(6) {
+    font-style: oblique;
+    font-size: 15px;
+    color: #a09c75;
+}
+
+.five {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.two>span:nth-of-type(2n):not(:nth-of-type(8)),
+.five>span:nth-of-type(4) {
+    color: #50816b;
+}
+
+.two>span:nth-of-type(2n+1):not(:first-child),
+.three>span:nth-of-type(4),
+.three>span:nth-of-type(5),
+.five>span:nth-of-type(3),
+.five>span:nth-of-type(5) {
+    color: red;
+}
+
+.three>span:nth-of-type(3) {
+    color: #50b4ca
+}
+
+.three>span:nth-of-type(2),
+.three>span:nth-of-type(6),
+.three>span:nth-of-type(7),
+.five>span:nth-of-type(2),
+.five>span:nth-of-type(7),
+.five>span:nth-of-type(8) {
+    font-weight: bold;
+}

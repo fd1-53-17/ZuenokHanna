@@ -1,0 +1,35 @@
+p {
+    width: 530px;
+    line-height: 1.3em
+}
+
+span {
+    width: 530px;
+    height: 30px;
+    display: block;
+    background-color: #f8f8f8;
+    padding-top: 5px;
+    padding-left: 10px;
+    word-spacing: 0.2em;
+    border: 1px solid #dededd;
+    font-family: monospace;
+}
+
+.an {
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.scrol {
+    height: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: #f8f8f8;
+    padding-top: 5px;
+    padding-left: 10px;
+    word-spacing: 0.2em;
+    border: 1px solid #dededd;
+    font-family: monospace;
+}
