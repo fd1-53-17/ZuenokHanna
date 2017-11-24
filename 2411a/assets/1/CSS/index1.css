@@ -1,0 +1,69 @@
+.all>div {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.row>div {
+    position: absolute;
+    transition: all 2s;
+}
+
+.r1 {
+    left: 0;
+}
+
+.r2 {
+    left: 20px;
+}
+
+.r3 {
+    left: 40px;
+}
+
+.all:hover .row:nth-of-type(2)>.r2 {
+    left: 40px;
+}
+
+.all:hover .row:nth-of-type(2)>.r3 {
+    left: 20px;
+}
+
+.all:hover .row:nth-of-type(3)>.r1 {
+    left: 20px;
+}
+
+.all:hover .row:nth-of-type(3)>.r2 {
+    left: 0;
+}
+
+.all:hover .row:nth-of-type(4)>.r1 {
+    left: 40px;
+}
+
+.all:hover .row:nth-of-type(4)>.r2 {
+    left: 0;
+}
+
+.all:hover .row:nth-of-type(4)>.r3 {
+    left: 20px;
+}
+
+.all:hover .row:nth-of-type(5)>.r1 {
+    left: 20px;
+}
+
+.all:hover .row:nth-of-type(5)>.r2 {
+    left: 40px;
+}
+
+.all:hover .row:nth-of-type(5)>.r3 {
+    left: 0;
+}
+
+.all:hover .row:nth-of-type(6)>.r1 {
+    left: 40px;
+}
+
+.all:hover .row:nth-of-type(6)>.r3 {
+    left: 0;
+}
