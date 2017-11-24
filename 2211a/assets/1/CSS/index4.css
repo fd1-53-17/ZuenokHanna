@@ -1,0 +1,21 @@
+div {
+    color: #376598;
+    display: block;
+    width: 160px;
+    height: 25px;
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #CBCCCD;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+body>div:nth-of-type(8) {
+    border-bottom: 1px solid #CBCCCD;
+}
+
+div:hover {
+    color: white;
+    background-color: #376598;
+}

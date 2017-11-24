@@ -1,0 +1,36 @@
+body>div {
+    width: 360px;
+    height: 176px;
+    background-color: #BDBDBD;
+    position: absolute;
+}
+
+div>div:nth-of-type(1) {
+    width: 0px;
+    height: 0;
+    border: 35px solid transparent;
+    border-bottom: 35px solid green;
+    position: absolute;
+    left: 53px;
+    top: 72px;
+}
+
+div>div:nth-of-type(2) {
+    width: 0px;
+    height: 0;
+    border: 52px solid transparent;
+    border-top: 105px solid green;
+    position: absolute;
+    left: 126px;
+    top: 36px;
+}
+
+div>div:nth-of-type(3) {
+    width: 0px;
+    height: 0;
+    border: 35px solid transparent;
+    border-bottom: 35px solid green;
+    position: absolute;
+    right: 53px;
+    top: 72px;
+}

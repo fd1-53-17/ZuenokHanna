@@ -1,0 +1,49 @@
+div {
+    width: 509px;
+    height: 60px;
+    border-bottom: 4px solid #CBCBCB;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 33px;
+    font-size: 25px;
+    font-family: arial;
+    text-decoration: underline;
+    color: #4594B3;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: -30px;
+    margin-top: -5px
+}
+
+li:nth-of-type(10) {
+    margin-right: 0;
+}
+
+li:hover {
+    display: inline-block;
+    width: 30px;
+    height: 53px;
+    background-color: #FF6C27;
+    color: white;
+    text-decoration: none;
+}
+
+.white {
+    width: 509px;
+    height: 20px;
+    border: 0;
+    background-color: white;
+
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
