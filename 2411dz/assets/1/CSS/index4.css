@@ -1,0 +1,117 @@
+body>div:nth-of-type(1) {
+    width: 110px;
+    height: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #ccaf0b;
+    position: absolute;
+    z-index: 1;
+}
+
+body>div:nth-of-type(2) {
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: 15px;
+    background-color: #ccaf0b;
+    z-index: 1;
+}
+
+body>div:nth-of-type(3):before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 200px;
+    background-color: #f1f1ee;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    z-index: 2;
+}
+
+body>div:nth-of-type(3) {
+    width: 230px;
+    height: 200px;
+    background-color: #f1f1ee;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    left: 40px;
+    top: 45px;
+    z-index: 3;
+}
+
+body>div:nth-of-type(3):after {
+    content: "";
+    display: block;
+    width: 275px;
+    height: 200px;
+    background-color: #f1f1ee;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: relative;
+    left: -20px;
+    top: 25px;
+    z-index: 4;
+}
+
+body>div:nth-of-type(4) {
+    width: 310px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: -90px;
+    background-color: #fae10f;
+    z-index: 5;
+}
+
+ul {
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+    list-style-type: none;
+    z-index: 5;
+    left: -60px;
+    top: 10px;
+}
+
+li {
+    color: red;
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+li:nth-of-type(2) {
+    color: green;
+}
+
+li:nth-of-type(3) {
+    color: #fad00f;
+}
+
+div>div {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 235px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: gray;
+    z-index: 5;
+}
+
+body:hover div:nth-of-type(3):after {
+    transform: translateX(180px);
+}
+
+body:hover ul {
+    transform: translateX(180px);
+}
+
+body:hover div>div {
+    transform: translateX(180px);
+}
