@@ -1,0 +1,29 @@
+div {
+    width: 250px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #efa1a1;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+span {
+    display: block;
+    margin-top: 50px;
+    color: #827c96
+}
+
+body>div:nth-of-type(2) {
+    width: 65px;
+    height: 25px;
+    border-radius: 0;
+
+    transform: rotate(-55deg);
+    transform: skew(-40deg, -20deg);
+    position: relative;
+    left: 130px;
+    top: 75px;
+}

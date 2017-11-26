@@ -1,0 +1,73 @@
+body>div {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient( to top, #AAA3C3, #8F6EB0, #5C4673, #342B52, #141023, #020103);
+    position: absolute;
+}
+
+img {
+    width: 500px;
+    margin-top: 170px;
+    position: absolute;
+    z-index: 5;
+}
+
+.light {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 335px;
+    z-index: 1;
+}
+
+body>div:hover div:nth-of-type(1) {
+    transition: all 3s;
+    left: 50px;
+    top: 200px;
+    box-shadow: 0 0 7px 4px #fcf6fe;
+}
+
+body>div:hover div:nth-of-type(2) {
+    transition: all 2s;
+    top: 225px;
+    left: 130px;
+    box-shadow: 0 0 7px 4px #fcf6fe;
+}
+
+body>div:hover div:nth-of-type(3) {
+    transition: all 3s;
+    top: 170px;
+    left: 230px;
+    box-shadow: 0 0 7px 4px #fcf6fe;
+}
+
+body>div:hover div:nth-of-type(4) {
+    transition: all 3s;
+    top: 200px;
+    left: 320px;
+    box-shadow: 0 0 7px 4px #fcf6fe;
+}
+
+body>div:hover div:nth-of-type(5) {
+    transition: all 3s;
+    top: 240px;
+    left: 410px;
+    box-shadow: 0 0 7px 4px #fcf6fe;
+}
+
+div:nth-of-type(6) {
+    width: 500px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+}
+
+body>div:hover div:nth-of-type(6) {
+    transition: all 3s;
+    box-shadow: 0 0 150px 120px #fcf6fe;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 50px
+}
+
+div {
+    width: 70px;
+    height: 20px;
+    background-color: #5A4236;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    left: 70px;
+    top: 10px;
+    z-index: 1;
+}
+
+body:hover div:after {
+    transition: all 2s;
+    width: 180px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 4px #FDFCFC, 0 0 5px 8px #FE0303, 0 0 15px 14px #FE0303;
+}

@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #ea0f7b;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+
+}
+
+div:before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fdb246;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+span {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    top: 33px;
+    left: 40px;
+}
