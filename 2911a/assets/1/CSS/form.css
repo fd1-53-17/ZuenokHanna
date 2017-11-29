@@ -1,0 +1,13 @@
+form {
+    line-height: 1.5em;
+    width: 125px;
+    margin-top: 15px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+input {
+
+    width: 120px;
+}
