@@ -1,0 +1,9 @@
+#ex1:checked~input,
+#ex1:checked~label {
+    display: inline-block;
+}
+
+#ex1~input,
+#ex1~label {
+    display: none;
+}
