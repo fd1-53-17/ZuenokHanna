@@ -1,0 +1,46 @@
+input[name=slider] {
+	display: none;
+}
+
+[type=radio]:checked+div {
+	display: block;
+
+}
+
+[type=radio]:not(:checked)+div {
+	display: none;
+}
+
+.slider-element {
+	position: absolute;
+	top: 10vw;
+	left: 10vw;
+	width: 80vw;
+	height: 42.2vw;
+}
+
+img {
+	width: 80vw;
+}
+
+label>img {
+	width: 10vw;
+}
+
+label {
+	display: block;
+	position: absolute;
+	top: 16vw;
+}
+
+label:nth-of-type(1) {
+	left: -10vw;
+}
+
+label:nth-of-type(2) {
+	left: 80vw;
+}
+
+.slider-element label {
+	cursor: pointer;
+}
