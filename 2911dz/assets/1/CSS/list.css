@@ -1,0 +1,80 @@
+#menu {
+	display: none;
+}
+
+#menu~ul {
+	display: none;
+}
+
+#menu:not(:checked)~label[for=menu]:nth-of-type(2) {
+	display: none;
+}
+
+#menu:checked+label[for=menu] {
+	display: none;
+}
+
+#menu:checked~ul {
+	display: block;
+}
+
+label[for="menu"] {
+	color: blue;
+	text-decoration: underline;
+}
+
+ul {
+	width: 60px;
+	outline: 1px solid;
+	list-style-type: none;
+	text-align: center;
+	line-height: 1.5;
+}
+
+[type="radio"] {
+	display: none;
+}
+
+label[for|="punkt"] {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+	margin-left: -40px;
+}
+
+label[for|="punkt"]:hover {
+	background: #87E89E;
+}
+
+
+[type="radio"]:not(:checked)+div {
+	display: none;
+}
+
+[type="radio"]:checked+div {
+	display: block;
+}
+
+li {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: #A5B3A8;
+}
+
+div {
+	position: absolute;
+	top: 0;
+	right: -96px;
+	outline: 1px solid;
+	width: 95px;
+	height: 120px;
+	text-align: center;
+	line-height: 1.5;
+}
