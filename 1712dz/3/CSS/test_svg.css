@@ -1,0 +1,46 @@
+#svg_5, #svg_1, #svg_2 {
+    display: block;
+    position: absolute;
+    -webkit-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+}
+#svg_2 {
+    width: 30px;
+    -webkit-animation: pulse 1.5s ease-in-out infinite;
+            animation: pulse 1.5s ease-in-out infinite;
+}
+body:hover #svg_5 {
+    fill: #7b1521;
+}
+body:hover #svg_2 {
+    stroke: #7b1521;
+    stroke-width: 3px;
+    fill: red;
+}
+body:hover #svg_1 {
+    stroke:none;
+    fill: #fbd9dd;
+}
+@-webkit-keyframes pulse {
+    0% {
+        stroke-width: 1.5;
+    }
+    50% {
+        stroke-width:5;
+    }
+    100% {
+        stroke-width: 1.5;
+    }
+}
+@keyframes pulse {
+    0% {
+        stroke-width: 1.5;
+    }
+    50% {
+        stroke-width:5;
+    }
+    100% {
+        stroke-width: 1.5;
+    }
+}
