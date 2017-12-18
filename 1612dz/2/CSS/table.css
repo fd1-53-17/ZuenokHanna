@@ -1,0 +1,82 @@
+body>div {
+    width: 60vw;
+    height: 60vw;
+    background-color: #cec9af;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+   counter-reset: number-left 0 number-right 0;
+   
+}
+body div div {
+    width: 6vw;
+    height: 6vw;
+    outline: 1px solid;
+    font-size: 3vw;
+}
+
+.chessTable>div:nth-of-type(n+11):not(:nth-of-type(n+20)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+22):not(:nth-of-type(n+30)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+32):not(:nth-of-type(n+40)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+42):not(:nth-of-type(n+50)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+52):not(:nth-of-type(n+60)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+62):not(:nth-of-type(n+70)):nth-of-type(odd),
+.chessTable>div:nth-of-type(n+72):not(:nth-of-type(n+80)):nth-of-type(even),
+.chessTable>div:nth-of-type(n+82):not(:nth-of-type(n+90)):nth-of-type(odd){
+  background-color: #523E32;
+}
+.chessTable>div:nth-of-type(10n+11):not(:nth-last-of-type(10))::before{
+     counter-increment: number-left +1;
+     content: counter(number-left);
+     padding-left: 2vw;
+}
+
+ .chessTable>div:nth-of-type(10n+10):not(:nth-of-type(10)):not(:nth-last-child(1))::before{
+     counter-increment: number-right +1;
+     content: counter(number-right);
+     padding-left: 2vw;
+ }
+ .chessTable>div:nth-of-type(2):after,
+ .chessTable>div:nth-last-of-type(9):after{
+  content: "A";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(3):after,
+ .chessTable>div:nth-last-of-type(8):after{
+  content: "B";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(4):after,
+ .chessTable>div:nth-last-of-type(7):after{
+  content: "C";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(5):after,
+ .chessTable>div:nth-last-of-type(6):after{
+  content: "D";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(6):after,
+ .chessTable>div:nth-last-of-type(5):after{
+  content: "E";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(7):after,
+ .chessTable>div:nth-last-of-type(4):after{
+  content: "F";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(8):after,
+ .chessTable>div:nth-last-of-type(3):after{
+  content: "G";
+  padding: 2vw;
+ }
+ .chessTable>div:nth-of-type(9):after,
+ .chessTable>div:nth-last-of-type(2):after{
+  content: "H";
+  padding: 2vw;
+ }
