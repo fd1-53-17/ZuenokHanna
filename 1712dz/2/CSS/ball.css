@@ -1,0 +1,142 @@
+#ballWrapper {
+    width: 800px;
+    height: 500px;
+    position: fixed;
+}
+
+#ball {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(50% 25%, circle, #F144E3, #370E34);
+    background: -o-radial-gradient(50% 25%, circle, #F144E3, #370E34);
+    background: radial-gradient(circle at 50% 25%, #F144E3, #370E34);
+    -webkit-box-shadow: inset 0 -7px 15px rgba(255, 255, 255, 0.4),
+    inset -10px -1px 90px rgba(0, 0, 0, 0.5),
+    0 0 1px #000;
+            box-shadow: inset 0 -7px 15px rgba(255, 255, 255, 0.4),
+    inset -10px -1px 90px rgba(0, 0, 0, 0.5),
+    0 0 1px #000;
+    -webkit-animation: jump 1.5s ease-in-out infinite;
+            animation: jump 1.5s ease-in-out infinite;
+}
+#ballShadow {
+    width: 100px;
+    height: 15px;
+    margin-left: 70px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    bottom: 50px;
+    background: rgba(20, 20, 20, .2);
+    -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.2);
+            box-shadow: 0px 0 10px 15px rgba(20,20,20,.2);
+    -webkit-animation: shrink 1.5s ease-in-out infinite;
+            animation: shrink 1.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes jump {
+    0% {
+        top: 0;
+    }
+    350% {
+        top: 300px;
+        height: 140px;
+    }
+    55% {
+        top: 320px;
+        height: 120px;
+        
+    }
+    65% {
+        top: 300px;
+        height: 140px;
+        
+    }
+    95% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 0;
+    }
+    350% {
+        top: 300px;
+        height: 140px;
+    }
+    55% {
+        top: 320px;
+        height: 120px;
+        
+    }
+    65% {
+        top: 300px;
+        height: 140px;
+        
+    }
+    95% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes shrink {
+    0% {
+        width: 100px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+    }
+    50% {
+        width: 50px;
+        height: 10px;
+        margin-left: 95px;
+        background: rgba(20, 20, 20, .3);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.3);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.3);
+    }
+    100% {
+        width: 100px;
+       height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+    }
+}
+
+@keyframes shrink {
+    0% {
+        width: 100px;
+        height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+    }
+    50% {
+        width: 50px;
+        height: 10px;
+        margin-left: 95px;
+        background: rgba(20, 20, 20, .3);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.3);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.3);
+    }
+    100% {
+        width: 100px;
+       height: 15px;
+        background: rgba(20, 20, 20, .1);
+        -webkit-box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+                box-shadow: 0px 0 10px 15px rgba(20,20,20,.1);
+    }
+}
