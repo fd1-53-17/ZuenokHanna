@@ -1,0 +1,57 @@
+body {
+    width: 500px;
+    height: 500px;
+}
+.one {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border:3px solid black;
+    position: absolute;
+    left: 175px;
+}
+.two {
+     display: block;
+    width: 100px;
+    height: 100px;
+    border:3px solid black;
+    border-radius: 50%;
+     position: absolute;
+    left: 175px;
+}
+.three {
+  border-bottom: 40px solid rgba(255,255,255,0);
+  border-right: 40px solid rgba(255,255,255,0);
+  border-left: 40px solid rgba(255,255,255,0);
+  border-top: 40px solid rgba(0,0,0,1);
+  width: 0;
+  height: 0;
+  position: absolute;
+    left: 175px;
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+ul>li {
+    float: left;
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #c8c7c6;
+    text-align: center;
+    padding-top: 8px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+div:target {
+    display: block;
+}    
+div:not(:target){
+    display: none;
+}
