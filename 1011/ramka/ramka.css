@@ -1,0 +1,38 @@
+table {
+  height: 100vh;
+}
+.border1 {
+    height: 100vh;
+    width: 50vh;
+    background: url(border1.png);
+    background-repeat: repeat-x;
+    background-position: 0% 0% ;
+    margin: 0px 0px 0px 0px;
+}
+.border2 {
+  height: 100vh;
+    background: url(border2.png);
+    background-repeat: repeat-y;
+    background-position: 0% 100% ;
+    margin: -380px 0px 0px 0px;
+}
+.border3 {
+  height: 100vh;
+    background: url(border2.png);
+    background-repeat: repeat-y;
+    background-position: 100% 0% ;
+    margin: -380px 0px 0px 0px;
+}
+.border4 {
+    height: 100vh; 
+    width: 50vh;
+    background: url(border1.png);
+    background-repeat: repeat-x;
+    background-position: 0% 100% ;
+    margin: -380px 0px 0px 0px;
+}
+.text { padding: 20px;
+margin: 0px;
+text-align: center;
+ margin: -350px 0px 0px 0px;
+}
