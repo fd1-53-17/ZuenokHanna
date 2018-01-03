@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset=utf-8>
+    <script type="text/javascript" defer="defer">
+        alert('hello world')
+
+        function clickListener(element) {
+            console.log('button');
+            var button = document.querySelector('button');
+            button.style.width = '80px';
+            button.style.height = '30px';
+            button.className = "rounded";
+            var rounded;
+            rounded.style.borderRadius = "5px";
+
+
+        }
+        var a = 10;
+
+        function f(a) {
+            console.log(window["a"]);
+        }
+    </script>
+</head>
+
+<body onClick="clickListener('body')">
+    <p id="document" onClick="clickListener('document')">hello world</p>
+    <button class="myButton" onClick="clickListener('button')">click</button>
+
+
+</body>
+
+</html>
